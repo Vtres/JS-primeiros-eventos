@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Alura Typer</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/estilos.css" rel="stylesheet"> 
+</head>
+<body>
+    <h1 class="titulo">Reescrevendo a frase abaixo</h1>
+
+    <div class="container">
+        <p class="text">Quanto tempo você leva para reescrever essa frase na caixa de baixo? Tem que ser igual, palavra por palavra. Isso antes que o tempo acabe :D Você tem 15 segundos! GO</p>
+
+        <ul class="informacoes">
+            <li><span id="tamanho-frase">10</span> palavras</li>
+            <li> <span id ="segundos">15</span> segundos</li>
+        </ul>
+
+        <textarea class="campo-digitacao" id=""></textarea>
+
+        <ul class="informacoes">
+            <li><span id="contador-caracteres">0</span> caracteres</li>
+            <li><span id="contador-palavras">0</span> palavras</li>
+        </ul>
+
+        <input class="button" id="button"type="submit" value="Tentar de novo" 
+        onclick="document.location.reload(true)"> 
+    </div>
+
+    
+   
+    <script src="js/jquery.js"></script>
+    <script src="js/main.js"></script>
+  
+</body>
+</html>

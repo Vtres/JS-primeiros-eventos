@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    
+}
+
+.clear{
+	clear: both;
+}
+
+.titulo{
+    text-align: center;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    font-style: italic;
+    font-size: 70px;
+    background-color: rgba(221, 161, 201, 0.267);
+    box-shadow: inset 0 0 1em gold;
+}
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+    padding-top: 3%;
+}
+.text{
+    font-size: 20px;
+    text-align:justify;
+    margin: 0 2%;
+}
+
+.informacoes{
+    list-style-type: none;
+    margin: 1% 2%;
+}
+
+.informacoes li{
+    font-size:20px ;
+    font-style: italic;
+    text-align: center;
+}
+
+span{
+    font-style: normal;
+}
+
+.campo-digitacao{
+    margin: 0 auto;
+    padding: 10px;
+    width: 100%;
+    font-size: 17px;
+}
+
+.button{
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+    background-color: lightskyblue;
+    font-weight: bolder;
+    cursor: pointer;
+    float: right;
+    border-color: white;
+   
+}
